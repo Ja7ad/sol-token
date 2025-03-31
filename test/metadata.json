@@ -1,0 +1,32 @@
+{
+  "name": "Solana Token",
+  "image": "https://raw.githubusercontent.com/Ja7ad/sol-token/refs/heads/main/test/image.jpeg",
+  "description": "Example solana token",
+  "contentType": "image/jpeg",
+  "attributes": [
+    {
+      "trait_type": "genres",
+      "value": "Paint"
+    },
+    {
+      "trait_type": "artists",
+      "value": "Foo"
+    },
+    {
+      "trait_type": "height",
+      "value": "50"
+    },
+    {
+      "trait_type": "weight",
+      "value": "0.1"
+    },
+    {
+      "trait_type": "width",
+      "value": "70"
+    },
+    {
+      "trait_type": "depth",
+      "value": "0"
+    }
+  ]
+}
