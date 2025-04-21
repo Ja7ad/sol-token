@@ -35,10 +35,6 @@ func NewTokenManager(client *Client, owner, payer *Account, tokenAddr common.Pub
 }
 
 func (t *Token) Mint(ctx context.Context, params MintParams) (tokenAddr common.PublicKey, txHash string, err error) {
-	if t.token.Bytes() != nil {
-		return common.PublicKey{}, "", errors.New("token already exists, cannot mint")
-	}
-
 	mint := NewAccount()
 	cli := t.client.Client()
 

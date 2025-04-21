@@ -1,4 +1,4 @@
-module github.com/Ja7ad/token
+module github.com/Ja7ad/sol-token
 
 go 1.24
 
